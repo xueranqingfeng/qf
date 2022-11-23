@@ -106,7 +106,7 @@ demoValue:
 ``` javascript
 import Demo from './Demo.js'
 let demoValue = Demo.parse({
-	id: 21,
+    id: 21,
     name: 'zzhzz',
     create_time: '2022-09-22 16:43:29',
     tags: [],
@@ -132,23 +132,22 @@ demoValue:
 ``` javascript
 import Demo from './Demo.js'
 let Demo = Demo.dispose({
-	id: null,
-	source: "2017-06-09",
-	description: null,
-	tags: [],
-	companyId: null,
-	rate: "0.1",
-	salary: 10
+	id: 21,
+    name: 'zzhzz',
+    create_time: '2022-09-22 16:43:29',
+    tags: [],
+    click_num:10000,
+    others:null
 });
 ```
 demoValue: 
 
 ``` javascript
 {
-	click_num: 10000
-    create_time: "2022-09-22"
-    enName: "zzhzz"
-    id: 21
+    id: 21,
+    enName: "zzhzz",
+    create_time: "2022-09-22",
+    click_num: 10000,
 }
 ```
 ## Advanced
